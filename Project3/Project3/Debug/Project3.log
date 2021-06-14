@@ -1,0 +1,4 @@
+﻿  main.cpp
+E:\DataBox\大學作業\二下\計組project\homework-project3\Project3\Project3\main.cpp(746,9): warning C4018: '<': signed/unsigned 不相符
+E:\DataBox\大學作業\二下\計組project\homework-project3\Project3\Project3\main.cpp(960,10): warning C4018: '>=': signed/unsigned 不相符
+  Project3.vcxproj -> E:\DataBox\大學作業\二下\計組project\homework-project3\Project3\Debug\Project3.exe

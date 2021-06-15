@@ -1,0 +1,886 @@
+----- cycle: 1 -----
+=====iss_ADDI=====
+RF[1] = 0
+RF[2] = 0
+RF[3] = 0
+RF[4] = 0
+RF[5] = 0
+
+RAT[1] = RS1
+RAT[2] = None
+RAT[3] = None
+RAT[4] = None
+RAT[5] = None
+
+RS[1] = + 0 0
+RS[2] = None
+RS[3] = None
+Buffer: empty
+
+RS[4] = None
+RS[5] = None
+Buffer: empty
+
+
+----- cycle: 2 -----
+=====exe=====
+RF[1] = 0
+RF[2] = 0
+RF[3] = 0
+RF[4] = 0
+RF[5] = 0
+
+RAT[1] = RS1
+RAT[2] = None
+RAT[3] = None
+RAT[4] = None
+RAT[5] = None
+
+RS[1] = + 0 0
+RS[2] = None
+RS[3] = None
+Buffer: RS1 = 0 + 0
+
+RS[4] = None
+RS[5] = None
+Buffer: empty
+
+=====iss_ADDI=====
+RF[1] = 0
+RF[2] = 0
+RF[3] = 0
+RF[4] = 0
+RF[5] = 0
+
+RAT[1] = RS1
+RAT[2] = RS2
+RAT[3] = None
+RAT[4] = None
+RAT[5] = None
+
+RS[1] = + 0 0
+RS[2] = + 0 2
+RS[3] = None
+Buffer: RS1 = 0 + 0
+
+RS[4] = None
+RS[5] = None
+Buffer: empty
+
+
+----- cycle: 3 -----
+=====AS_wr=====
+RF[1] = 0
+RF[2] = 0
+RF[3] = 0
+RF[4] = 0
+RF[5] = 0
+
+RAT[1] = None
+RAT[2] = RS2
+RAT[3] = None
+RAT[4] = None
+RAT[5] = None
+
+RS[1] = None
+RS[2] = + 0 2
+RS[3] = None
+Buffer: empty
+
+RS[4] = None
+RS[5] = None
+Buffer: empty
+
+=====exe=====
+RF[1] = 0
+RF[2] = 0
+RF[3] = 0
+RF[4] = 0
+RF[5] = 0
+
+RAT[1] = None
+RAT[2] = RS2
+RAT[3] = None
+RAT[4] = None
+RAT[5] = None
+
+RS[1] = None
+RS[2] = + 0 2
+RS[3] = None
+Buffer: RS2 = 0 + 2
+
+RS[4] = None
+RS[5] = None
+Buffer: empty
+
+=====iss_ADDI=====
+RF[1] = 0
+RF[2] = 0
+RF[3] = 0
+RF[4] = 0
+RF[5] = 0
+
+RAT[1] = None
+RAT[2] = RS2
+RAT[3] = RS1
+RAT[4] = None
+RAT[5] = None
+
+RS[1] = + 0 4
+RS[2] = + 0 2
+RS[3] = None
+Buffer: RS2 = 0 + 2
+
+RS[4] = None
+RS[5] = None
+Buffer: empty
+
+
+----- cycle: 4 -----
+=====AS_wr=====
+RF[1] = 0
+RF[2] = 2
+RF[3] = 0
+RF[4] = 0
+RF[5] = 0
+
+RAT[1] = None
+RAT[2] = None
+RAT[3] = RS1
+RAT[4] = None
+RAT[5] = None
+
+RS[1] = + 0 4
+RS[2] = None
+RS[3] = None
+Buffer: empty
+
+RS[4] = None
+RS[5] = None
+Buffer: empty
+
+=====exe=====
+RF[1] = 0
+RF[2] = 2
+RF[3] = 0
+RF[4] = 0
+RF[5] = 0
+
+RAT[1] = None
+RAT[2] = None
+RAT[3] = RS1
+RAT[4] = None
+RAT[5] = None
+
+RS[1] = + 0 4
+RS[2] = None
+RS[3] = None
+Buffer: RS1 = 0 + 4
+
+RS[4] = None
+RS[5] = None
+Buffer: empty
+
+=====iss_ADDI=====
+RF[1] = 0
+RF[2] = 2
+RF[3] = 0
+RF[4] = 0
+RF[5] = 0
+
+RAT[1] = None
+RAT[2] = None
+RAT[3] = RS1
+RAT[4] = RS2
+RAT[5] = None
+
+RS[1] = + 0 4
+RS[2] = + 0 6
+RS[3] = None
+Buffer: RS1 = 0 + 4
+
+RS[4] = None
+RS[5] = None
+Buffer: empty
+
+
+----- cycle: 5 -----
+=====AS_wr=====
+RF[1] = 0
+RF[2] = 2
+RF[3] = 4
+RF[4] = 0
+RF[5] = 0
+
+RAT[1] = None
+RAT[2] = None
+RAT[3] = None
+RAT[4] = RS2
+RAT[5] = None
+
+RS[1] = None
+RS[2] = + 0 6
+RS[3] = None
+Buffer: empty
+
+RS[4] = None
+RS[5] = None
+Buffer: empty
+
+=====exe=====
+RF[1] = 0
+RF[2] = 2
+RF[3] = 4
+RF[4] = 0
+RF[5] = 0
+
+RAT[1] = None
+RAT[2] = None
+RAT[3] = None
+RAT[4] = RS2
+RAT[5] = None
+
+RS[1] = None
+RS[2] = + 0 6
+RS[3] = None
+Buffer: RS2 = 0 + 6
+
+RS[4] = None
+RS[5] = None
+Buffer: empty
+
+=====iss_ADDI=====
+RF[1] = 0
+RF[2] = 2
+RF[3] = 4
+RF[4] = 0
+RF[5] = 0
+
+RAT[1] = None
+RAT[2] = None
+RAT[3] = None
+RAT[4] = RS2
+RAT[5] = RS1
+
+RS[1] = + 0 8
+RS[2] = + 0 6
+RS[3] = None
+Buffer: RS2 = 0 + 6
+
+RS[4] = None
+RS[5] = None
+Buffer: empty
+
+
+----- cycle: 6 -----
+=====AS_wr=====
+RF[1] = 0
+RF[2] = 2
+RF[3] = 4
+RF[4] = 6
+RF[5] = 0
+
+RAT[1] = None
+RAT[2] = None
+RAT[3] = None
+RAT[4] = None
+RAT[5] = RS1
+
+RS[1] = + 0 8
+RS[2] = None
+RS[3] = None
+Buffer: empty
+
+RS[4] = None
+RS[5] = None
+Buffer: empty
+
+=====exe=====
+RF[1] = 0
+RF[2] = 2
+RF[3] = 4
+RF[4] = 6
+RF[5] = 0
+
+RAT[1] = None
+RAT[2] = None
+RAT[3] = None
+RAT[4] = None
+RAT[5] = RS1
+
+RS[1] = + 0 8
+RS[2] = None
+RS[3] = None
+Buffer: RS1 = 0 + 8
+
+RS[4] = None
+RS[5] = None
+Buffer: empty
+
+=====iss_ADDI=====
+RF[1] = 0
+RF[2] = 2
+RF[3] = 4
+RF[4] = 6
+RF[5] = 0
+
+RAT[1] = RS2
+RAT[2] = None
+RAT[3] = None
+RAT[4] = None
+RAT[5] = RS1
+
+RS[1] = + 0 8
+RS[2] = + 2 1
+RS[3] = None
+Buffer: RS1 = 0 + 8
+
+RS[4] = None
+RS[5] = None
+Buffer: empty
+
+
+----- cycle: 7 -----
+=====AS_wr=====
+RF[1] = 0
+RF[2] = 2
+RF[3] = 4
+RF[4] = 6
+RF[5] = 8
+
+RAT[1] = RS2
+RAT[2] = None
+RAT[3] = None
+RAT[4] = None
+RAT[5] = None
+
+RS[1] = None
+RS[2] = + 2 1
+RS[3] = None
+Buffer: empty
+
+RS[4] = None
+RS[5] = None
+Buffer: empty
+
+=====exe=====
+RF[1] = 0
+RF[2] = 2
+RF[3] = 4
+RF[4] = 6
+RF[5] = 8
+
+RAT[1] = RS2
+RAT[2] = None
+RAT[3] = None
+RAT[4] = None
+RAT[5] = None
+
+RS[1] = None
+RS[2] = + 2 1
+RS[3] = None
+Buffer: RS2 = 2 + 1
+
+RS[4] = None
+RS[5] = None
+Buffer: empty
+
+=====iss_SUB=====
+RF[1] = 0
+RF[2] = 2
+RF[3] = 4
+RF[4] = 6
+RF[5] = 8
+
+RAT[1] = RS1
+RAT[2] = None
+RAT[3] = None
+RAT[4] = None
+RAT[5] = None
+
+RS[1] = - 4 6
+RS[2] = + 2 1
+RS[3] = None
+Buffer: RS2 = 2 + 1
+
+RS[4] = None
+RS[5] = None
+Buffer: empty
+
+
+----- cycle: 8 -----
+=====AS_wr=====
+RF[1] = 0
+RF[2] = 2
+RF[3] = 4
+RF[4] = 6
+RF[5] = 8
+
+RAT[1] = RS1
+RAT[2] = None
+RAT[3] = None
+RAT[4] = None
+RAT[5] = None
+
+RS[1] = - 4 6
+RS[2] = None
+RS[3] = None
+Buffer: empty
+
+RS[4] = None
+RS[5] = None
+Buffer: empty
+
+=====exe=====
+RF[1] = 0
+RF[2] = 2
+RF[3] = 4
+RF[4] = 6
+RF[5] = 8
+
+RAT[1] = RS1
+RAT[2] = None
+RAT[3] = None
+RAT[4] = None
+RAT[5] = None
+
+RS[1] = - 4 6
+RS[2] = None
+RS[3] = None
+Buffer: RS1 = 4 - 6
+
+RS[4] = None
+RS[5] = None
+Buffer: empty
+
+=====iss_DIV=====
+RF[1] = 0
+RF[2] = 2
+RF[3] = 4
+RF[4] = 6
+RF[5] = 8
+
+RAT[1] = RS4
+RAT[2] = None
+RAT[3] = None
+RAT[4] = None
+RAT[5] = None
+
+RS[1] = - 4 6
+RS[2] = None
+RS[3] = None
+Buffer: RS1 = 4 - 6
+
+RS[4] = / 2 4
+RS[5] = None
+Buffer: empty
+
+
+----- cycle: 9 -----
+=====AS_wr=====
+RF[1] = 0
+RF[2] = 2
+RF[3] = 4
+RF[4] = 6
+RF[5] = 8
+
+RAT[1] = RS4
+RAT[2] = None
+RAT[3] = None
+RAT[4] = None
+RAT[5] = None
+
+RS[1] = None
+RS[2] = None
+RS[3] = None
+Buffer: empty
+
+RS[4] = / 2 4
+RS[5] = None
+Buffer: empty
+
+=====exe=====
+RF[1] = 0
+RF[2] = 2
+RF[3] = 4
+RF[4] = 6
+RF[5] = 8
+
+RAT[1] = RS4
+RAT[2] = None
+RAT[3] = None
+RAT[4] = None
+RAT[5] = None
+
+RS[1] = None
+RS[2] = None
+RS[3] = None
+Buffer: empty
+
+RS[4] = / 2 4
+RS[5] = None
+Buffer: RS4 = 2 / 4
+
+=====iss_MUL=====
+RF[1] = 0
+RF[2] = 2
+RF[3] = 4
+RF[4] = 6
+RF[5] = 8
+
+RAT[1] = RS4
+RAT[2] = RS5
+RAT[3] = None
+RAT[4] = None
+RAT[5] = None
+
+RS[1] = None
+RS[2] = None
+RS[3] = None
+Buffer: empty
+
+RS[4] = / 2 4
+RS[5] = * 4 6
+Buffer: RS4 = 2 / 4
+
+
+----- cycle: 10 -----
+=====MD_wr=====
+RF[1] = 0.5
+RF[2] = 2
+RF[3] = 4
+RF[4] = 6
+RF[5] = 8
+
+RAT[1] = None
+RAT[2] = RS5
+RAT[3] = None
+RAT[4] = None
+RAT[5] = None
+
+RS[1] = None
+RS[2] = None
+RS[3] = None
+Buffer: empty
+
+RS[4] = None
+RS[5] = * 4 6
+Buffer: empty
+
+=====exe=====
+RF[1] = 0.5
+RF[2] = 2
+RF[3] = 4
+RF[4] = 6
+RF[5] = 8
+
+RAT[1] = None
+RAT[2] = RS5
+RAT[3] = None
+RAT[4] = None
+RAT[5] = None
+
+RS[1] = None
+RS[2] = None
+RS[3] = None
+Buffer: empty
+
+RS[4] = None
+RS[5] = * 4 6
+Buffer: RS5 = 4 * 6
+
+=====iss_ADD=====
+RF[1] = 0.5
+RF[2] = 2
+RF[3] = 4
+RF[4] = 6
+RF[5] = 8
+
+RAT[1] = None
+RAT[2] = RS1
+RAT[3] = None
+RAT[4] = None
+RAT[5] = None
+
+RS[1] = + 6 RS5
+RS[2] = None
+RS[3] = None
+Buffer: empty
+
+RS[4] = None
+RS[5] = * 4 6
+Buffer: RS5 = 4 * 6
+
+
+----- cycle: 11 -----
+=====MD_wr=====
+RF[1] = 0.5
+RF[2] = 2
+RF[3] = 4
+RF[4] = 6
+RF[5] = 8
+
+RAT[1] = None
+RAT[2] = RS1
+RAT[3] = None
+RAT[4] = None
+RAT[5] = None
+
+RS[1] = + 6 24
+RS[2] = None
+RS[3] = None
+Buffer: empty
+
+RS[4] = None
+RS[5] = None
+Buffer: empty
+
+=====exe=====
+RF[1] = 0.5
+RF[2] = 2
+RF[3] = 4
+RF[4] = 6
+RF[5] = 8
+
+RAT[1] = None
+RAT[2] = RS1
+RAT[3] = None
+RAT[4] = None
+RAT[5] = None
+
+RS[1] = + 6 24
+RS[2] = None
+RS[3] = None
+Buffer: RS1 = 6 + 24
+
+RS[4] = None
+RS[5] = None
+Buffer: empty
+
+=====iss_ADDI=====
+RF[1] = 0.5
+RF[2] = 2
+RF[3] = 4
+RF[4] = 6
+RF[5] = 8
+
+RAT[1] = None
+RAT[2] = RS1
+RAT[3] = None
+RAT[4] = RS2
+RAT[5] = None
+
+RS[1] = + 6 24
+RS[2] = + 0.5 2
+RS[3] = None
+Buffer: RS1 = 6 + 24
+
+RS[4] = None
+RS[5] = None
+Buffer: empty
+
+
+----- cycle: 12 -----
+=====AS_wr=====
+RF[1] = 0.5
+RF[2] = 30
+RF[3] = 4
+RF[4] = 6
+RF[5] = 8
+
+RAT[1] = None
+RAT[2] = None
+RAT[3] = None
+RAT[4] = RS2
+RAT[5] = None
+
+RS[1] = None
+RS[2] = + 0.5 2
+RS[3] = None
+Buffer: empty
+
+RS[4] = None
+RS[5] = None
+Buffer: empty
+
+=====exe=====
+RF[1] = 0.5
+RF[2] = 30
+RF[3] = 4
+RF[4] = 6
+RF[5] = 8
+
+RAT[1] = None
+RAT[2] = None
+RAT[3] = None
+RAT[4] = RS2
+RAT[5] = None
+
+RS[1] = None
+RS[2] = + 0.5 2
+RS[3] = None
+Buffer: RS2 = 0.5 + 2
+
+RS[4] = None
+RS[5] = None
+Buffer: empty
+
+=====iss_MUL=====
+RF[1] = 0.5
+RF[2] = 30
+RF[3] = 4
+RF[4] = 6
+RF[5] = 8
+
+RAT[1] = None
+RAT[2] = None
+RAT[3] = None
+RAT[4] = RS2
+RAT[5] = RS4
+
+RS[1] = None
+RS[2] = + 0.5 2
+RS[3] = None
+Buffer: RS2 = 0.5 + 2
+
+RS[4] = * 8 8
+RS[5] = None
+Buffer: empty
+
+
+----- cycle: 13 -----
+=====AS_wr=====
+RF[1] = 0.5
+RF[2] = 30
+RF[3] = 4
+RF[4] = 2.5
+RF[5] = 8
+
+RAT[1] = None
+RAT[2] = None
+RAT[3] = None
+RAT[4] = None
+RAT[5] = RS4
+
+RS[1] = None
+RS[2] = None
+RS[3] = None
+Buffer: empty
+
+RS[4] = * 8 8
+RS[5] = None
+Buffer: empty
+
+=====exe=====
+RF[1] = 0.5
+RF[2] = 30
+RF[3] = 4
+RF[4] = 2.5
+RF[5] = 8
+
+RAT[1] = None
+RAT[2] = None
+RAT[3] = None
+RAT[4] = None
+RAT[5] = RS4
+
+RS[1] = None
+RS[2] = None
+RS[3] = None
+Buffer: empty
+
+RS[4] = * 8 8
+RS[5] = None
+Buffer: RS4 = 8 * 8
+
+=====iss_ADD=====
+RF[1] = 0.5
+RF[2] = 30
+RF[3] = 4
+RF[4] = 2.5
+RF[5] = 8
+
+RAT[1] = RS1
+RAT[2] = None
+RAT[3] = None
+RAT[4] = None
+RAT[5] = RS4
+
+RS[1] = + 2.5 2.5
+RS[2] = None
+RS[3] = None
+Buffer: empty
+
+RS[4] = * 8 8
+RS[5] = None
+Buffer: RS4 = 8 * 8
+
+
+----- cycle: 14 -----
+=====MD_wr=====
+RF[1] = 0.5
+RF[2] = 30
+RF[3] = 4
+RF[4] = 2.5
+RF[5] = 64
+
+RAT[1] = RS1
+RAT[2] = None
+RAT[3] = None
+RAT[4] = None
+RAT[5] = None
+
+RS[1] = + 2.5 2.5
+RS[2] = None
+RS[3] = None
+Buffer: empty
+
+RS[4] = None
+RS[5] = None
+Buffer: empty
+
+=====exe=====
+RF[1] = 0.5
+RF[2] = 30
+RF[3] = 4
+RF[4] = 2.5
+RF[5] = 64
+
+RAT[1] = RS1
+RAT[2] = None
+RAT[3] = None
+RAT[4] = None
+RAT[5] = None
+
+RS[1] = + 2.5 2.5
+RS[2] = None
+RS[3] = None
+Buffer: RS1 = 2.5 + 2.5
+
+RS[4] = None
+RS[5] = None
+Buffer: empty
+
+
+----- cycle: 15 -----
+=====AS_wr=====
+RF[1] = 5
+RF[2] = 30
+RF[3] = 4
+RF[4] = 2.5
+RF[5] = 64
+
+RAT[1] = None
+RAT[2] = None
+RAT[3] = None
+RAT[4] = None
+RAT[5] = None
+
+RS[1] = None
+RS[2] = None
+RS[3] = None
+Buffer: empty
+
+RS[4] = None
+RS[5] = None
+Buffer: empty
